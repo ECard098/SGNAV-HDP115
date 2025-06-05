@@ -4,3 +4,5 @@ from django.shortcuts import render
 def gestion_documento(request):
     return render(request, 'gestion_documento.html')
 
+def visualizar_documento(request):
+    return render(request, 'visualizar_documento.html')
